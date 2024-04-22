@@ -1,0 +1,110 @@
+html, body {
+font-family: 'Roboto', sans-serif;
+font-family: 'Playfair Display', serif;
+background-color: #fff;
+margin: 0px auto; 
+
+}
+
+.container-fluid.full-width {
+    padding-left: 0;
+    padding-right: 0;
+    overflow-x: hidden;
+}
+.row.row-no-gutter {
+    margin: 0
+}
+.row.row-no-gutter [class*="col-"] {
+    padding: 0
+}
+.img-full-width {
+    width: 100.5%;
+    height: auto;
+}
+
+
+
+.logo img {
+    z-index: 9999999999999;
+    width: 220px;
+    padding-top: 12px;
+}
+
+
+
+/*ipad landscape*/
+
+@media (max-width: 1200px) and (min-width: 1000px) {
+
+.logo img {
+    z-index: 9999999999999;
+    width: 220px;
+    padding-top: 15px;
+}
+
+}
+
+
+
+
+
+
+/*ipad portrait*/
+@media (max-width: 999px) and (min-width: 740px) {
+
+.logo img {
+    z-index: 9999999999999;
+    width: 180px;
+    padding-top: 10px;
+    margin-left: 20px;
+}
+
+}
+
+
+
+
+/*movil*/
+
+@media (max-width: 767px) and (min-width: 320px) {
+
+.logo img {
+    z-index: 9999999999999;
+    width: 170px;
+    padding-top: 10px;
+    margin-left: 10px;
+}
+
+
+}
+
+
+
+
+
+
+
+/* Rules for sizing the icon. */
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+.material-icons.green { color: #6ab943; }
+
+
+
+
+@media 
+only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (min-device-pixel-ratio: 1.5){
+
+  html,
+  body{
+    width:100%;
+    overflow-x:hidden;
+  }
+
+}
